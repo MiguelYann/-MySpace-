@@ -10,7 +10,7 @@ class App extends Component {
 
             <div className="demo-big-content">
     <Layout>
-        <Header title="M-Y WORLD " scroll>
+        <Header title="M-Y WORLD " className="header" scroll>
             <Navigation>
                 <Link to="/resume">Mon Quotidien</Link>
                 <Link to="/aboutme">A propos de moi</Link>
