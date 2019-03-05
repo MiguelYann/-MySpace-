@@ -15,7 +15,7 @@ class App extends Component {
                 <Link to="/resume">Mon Quotidien</Link>
                 <Link to="/aboutme">A propos de moi</Link>
                 <Link to="/contact">Mes Contacts</Link>
-                <Link to="/projects">Mes Projets</Link>
+                <Link to="/projects">Mon parcours</Link>
             </Navigation>
         </Header>
         <Drawer title="Menu">
@@ -23,7 +23,7 @@ class App extends Component {
                 <Link to="/resume">Mon Quotidien</Link>
                 <Link to="/aboutme">A propos de moi</Link>
                 <Link to="/contact">Mes Contacts</Link>
-                <Link to="/projects">Mes Projets</Link>
+                <Link to="/projects">Mon Parcours</Link>
             </Navigation>
         </Drawer>
         <Content>
