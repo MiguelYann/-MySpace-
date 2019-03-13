@@ -1,13 +1,82 @@
-.header {
-    background: #5C258D;
+.header-color {
+    background: #4B79A1;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #4389A2, #5C258D);
+    background: -webkit-linear-gradient(to top, #283E51, #4B79A1);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #4389A2, #5C258D);
+    background: linear-gradient(to top, #283E51, #4B79A1);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-weight: bold;
+    font-size: 20em;
+    font-family: 'Special Elite', cursive;
 }
 
-.image {
-    height: 50px;
-    margin-top: 3em;
+.landing-grid {
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center
+}
+
+.avatar-img {
+    height: 250px;
+    padding-top: 5em;
+}
+
+.banner-text {
+    background-color: #4B79A1;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.banner-text h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
+
+.banner-text hr {
+    border-top: 5px dotted whitesmoke;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text P {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 1em;
+    font-family: 'Special Elite', cursive;
+}
+
+.social-links {
+    color: white;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 5px;
+}
+
+.fa fa-youtube-square {
+    color: black;
+}
+
+.text-transition {
+    font-size: 13px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+Header {
+    font-family: 'Special Elite', cursive;
 }

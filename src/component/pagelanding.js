@@ -5,18 +5,40 @@ class Ladding extends Component {
     render() {
         return (
 
+            <div style = {{ width: '100%', margin: 'auto'}}>
+<h1 className="text-transition">Le Site MiguelYann Space disponible très bientôt, avec tous vos Quizz disponibles en Anglais et en Français, pour vous aidez à tester vos connaissances
+ en programmation, et vous maintenir à jour sur toutes les nouveautés technologiques</h1>
+            <Grid className = "landing-grid">
             
-            <div style = {
-                { width: '100%', margin: 'auto' } } >
+            <Cell col = {12}>
             
-            <Grid className = "landing-grid" >
-            
-            <Cell col = { 12 }>
-            
-            <img src = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/488f115d-6e44-4ccd-b238-b2699af64966/d7bmt54-cde04c58-1c7d-41d2-84aa-ba777a5e5e57.jpg/v1/fill/w_1192,h_670,q_70,strp/web_developer_wallpaper__code__by_plusjack_d7bmt54-pre.jpg  "
-            alt = "monimage"
-            className = "image" />
-            
+           <img src={require('./me.png')} 
+           className="avatar-img" alt="moi"
+           />
+            <div className="banner-text">
+            <h1>Developpeur Web</h1>
+            <hr/>
+            <p>HTML - CSS - JAVASCRIPT - REACTJS - ANGULAR - NODEJS - JAVA</p>
+            <div className="social-links">
+
+{/* LinkedIn */}
+<a href="https://www.linkedin.com/in/miguel-yann-tsamba-67bb30148/" rel="noopener noreferrer" target="_blank">
+  <i className="fa fa-linkedin-square" aria-hidden="true" />
+</a>
+
+{/* Github */}
+<a href="https://github.com/MiguelYann" rel="noopener noreferrer" target="_blank">
+  <i className="fa fa-github-square" aria-hidden="true" />
+</a>
+
+
+
+{/* Youtube */}
+<a href="http://google.com" rel="noopener noreferrer" target="_blank">
+  <i className="fa fa-youtube-square" aria-hidden="true" />
+</a>
+        </div>
+        </div>
             </Cell> 
             </Grid> 
             </div>

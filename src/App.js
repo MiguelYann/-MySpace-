@@ -10,20 +10,21 @@ class App extends Component {
 
             <div className="demo-big-content">
     <Layout>
-        <Header title="M-Y WORLD " className="header" scroll>
+        <Header title="<MYSpace> " className="header-color" scroll>
+        
             <Navigation>
-                <Link to="/resume">Mon Quotidien</Link>
-                <Link to="/aboutme">A propos de moi</Link>
-                <Link to="/contact">Mes Contacts</Link>
-                <Link to="/projects">Mon parcours</Link>
+                <Link to="/actuality">Actualités</Link>
+                <Link to="/quizz">Quizz</Link>
+                <Link to="/contact">Me Contacter</Link>
+                <Link to="/paths">Mon Parcours</Link>
             </Navigation>
         </Header>
         <Drawer title="Menu">
             <Navigation>
-                <Link to="/resume">Mon Quotidien</Link>
-                <Link to="/aboutme">A propos de moi</Link>
-                <Link to="/contact">Mes Contacts</Link>
-                <Link to="/projects">Mon Parcours</Link>
+            <Link to="/actuality">Actualités</Link>
+                <Link to="/quizz">Quizz</Link>
+                <Link to="/contact">Me Contacter</Link>
+                <Link to="/paths">Mon Parcours</Link>
             </Navigation>
         </Drawer>
         <Content>
